@@ -1,5 +1,6 @@
 import jwt, { JwtPayload } from 'jsonwebtoken'
-const JWT_SECRET_KEY = "12345678abcdefghijklmnopqrstuvwxyz"
+import { ENV } from './ENV'
+const JWT_SECRET_KEY = ENV.JWT_SECRET_KEY 
 
 
 export interface Payload {
