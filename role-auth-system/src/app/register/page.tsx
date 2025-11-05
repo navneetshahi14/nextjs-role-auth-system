@@ -23,8 +23,11 @@ const Register = () => {
             body:JSON.stringify({name,email,password,role})
         })
         
-        console.log(data)
-
+        localStorage.setItem("role",resData.role)
+        localStorage.setItem("token",resData.token)
+        
+        toast.success(resData.message)
+        redirect('/')
     }
 
   return (
