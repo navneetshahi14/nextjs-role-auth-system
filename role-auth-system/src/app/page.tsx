@@ -47,7 +47,7 @@ export default function Home() {
         else if (role === "Hr") endpoint = "my-clients";
         else if (role === "client") endpoint = "hrs";
 
-        const response = await fetch(`http://localhost:7000/role/${endpoint}`, {
+        const response = await fetch(`https://nextjs-role-auth-system.onrender.com/role/${endpoint}`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -74,7 +74,7 @@ export default function Home() {
   ];
 
   const handleContact = async(hrId:string) =>{
-    const data = await fetch(`http://localhost:7000/role/contact`,{
+    const data = await fetch(`https://nextjs-role-auth-system.onrender.com/role/contact`,{
       method:"POST",
       headers:{
         "Content-Type":"application/json",

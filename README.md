@@ -138,10 +138,10 @@ npm run dev
 
 ## 🌐 Live Demo URLs
 
-| Service                | URL                                                                    |
-| ---------------------- | ---------------------------------------------------------------------- |
-| **Frontend (Next.js)** | [https://your-frontend.vercel.app](https://your-frontend.vercel.app)   |
-| **Backend (Express)**  | [https://your-backend.onrender.com](https://your-backend.onrender.com) |
+| Service                | URL                                                                                          |
+| ---------------------- | -------------------------------------------------------------------------------------------- |
+| **Frontend (Next.js)** | [https://nextjs-role-auth-system.vercel.app](https://nextjs-role-auth-system.vercel.app)     |
+| **Backend (Express)**  | [https://nextjs-role-auth-system.onrender.com](https://nextjs-role-auth-system.onrender.com) |
 
 ---
 

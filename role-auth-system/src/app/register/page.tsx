@@ -15,7 +15,7 @@ const Register = () => {
 
     const handleRegister = async() =>{
         console.log(role,name,email,password)
-        const data = await fetch(`http://localhost:7000/auth/register`,{
+        const data = await fetch(`https://nextjs-role-auth-system.onrender.com/auth/register`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

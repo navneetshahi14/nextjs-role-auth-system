@@ -12,7 +12,7 @@ const Login = () => {
     const [password,setPassword] = useState("")
 
     const handleLogin =async () =>{
-        const data = await fetch(`http://localhost:7000/auth/login`,{
+        const data = await fetch(`https://nextjs-role-auth-system.onrender.com/auth/login`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
